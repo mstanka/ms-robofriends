@@ -1,0 +1,30 @@
+.card {  
+  background: #001b44;
+  color: #f6fffe;
+  border: 1px solid #f6fffe;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #001b44;  
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: .9rem;
+}

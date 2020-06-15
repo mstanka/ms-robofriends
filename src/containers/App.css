@@ -1,0 +1,9 @@
+.header {  
+  font-size: 3rem;
+  color: #001b44;
+  text-align: center;
+}
+
+.header span {
+  text-transform: uppercase;
+}
